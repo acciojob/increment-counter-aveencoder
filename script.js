@@ -1,2 +1,11 @@
 //your JS code here. If required.
-looijwoidjowjd
+
+document.addEventListener('DOMContentLoaded',()=>{
+	  
+const idx = document.getElementById('counter');
+const incrementBtn = document.getElementById('incrementBtn')
+alert(idx.innerText);
+	incrementBtn.addEventListener('click',()=>{
+	idx.innerText = Number(idx.innerText)+1;
+})
+});
